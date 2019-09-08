@@ -1,6 +1,6 @@
 {
-  "name": "ExerciseBuddy",
-  "version": "0.1bootstrap.0",
+  "name": "mern-exercise-tracker",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.0.0",
@@ -17,8 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "cd build && npm install && npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
