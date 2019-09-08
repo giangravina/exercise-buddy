@@ -42,7 +42,7 @@ if (process.env.NODE_ENV === 'production'){
 	app.use(express.static( 'src/build'));
 
 	app.get('*', (req,res) => {
-		res.sendFile(path.join(__dirname, 'src', 'build', 'index.html')); //relative path
+		res.sendFile(path.resolve(__dirname, 'src', 'build', 'index.html')); //relative path
 	});
 }
 
