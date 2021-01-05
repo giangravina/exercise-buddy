@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.0.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
     "react-datepicker": "^2.9.3",
